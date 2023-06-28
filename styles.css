@@ -944,6 +944,13 @@ h5 {
     }
 }
 
+@media (max-width: 450px) {
+    .hobby-freelance .icon-with-background {
+        --size: 1.5rem;
+        transform: translate(0rem, -1.7rem);
+    }
+}
+
 .hobby-freelance .icon-with-background::before {
     --size: 5rem;
     left: -.5rem;
@@ -952,6 +959,13 @@ h5 {
 @media (max-width: 550px) {
     .hobby-freelance .icon-with-background::before {
         --size: 3rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .hobby-freelance .icon-with-background::before {
+        --size: 2.5rem;
+        left: -0.5rem;
     }
 }
 
@@ -975,6 +989,12 @@ h5 {
     text-indent: 2.5rem;
     position: relative;
     text-align: justify;
+}
+
+@media (max-width: 450px) {
+    .testimonial blockquote {
+        font-size: 1rem;
+    }
 }
 
 .testimonial blockquote::before,
